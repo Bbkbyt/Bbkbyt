@@ -1,0 +1,4 @@
+marks1={'math':20 , 'athlets':12 , 'physics':18}
+marks2={'english':19 , 'chemistry':19}
+marks1.update(marks2)
+print(marks1)
