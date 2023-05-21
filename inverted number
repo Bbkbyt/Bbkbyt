@@ -1,0 +1,5 @@
+a=int(input('Enter 2 digit: '))
+b=a//10
+c=a%10
+print('sum of digits: ', b+c)
+print('The inverted: ', c*10+b)
