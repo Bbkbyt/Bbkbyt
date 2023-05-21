@@ -1,0 +1,2 @@
+marks1={'math':20 , 'athlets':12 , 'physics':18}
+print('sum: ', marks1['math']+marks1['athlets']+marks1['physics'])
