@@ -1,0 +1,4 @@
+a=int(input('Enter radius: '))
+b=int(input('Enter height: '))
+print('The mass: ', a**2*3.14*b)
+print('The area: ', a*2*3.14*b)
