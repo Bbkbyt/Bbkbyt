@@ -1,0 +1,12 @@
+n=int(input('Enter a number to search: '))
+i=1
+a=1
+b=1
+while(i<=n):
+    if(b==n):
+        print('the number you entered existed')
+    c=b
+    b+=a
+    a=c
+    i+=1
+print('End')
