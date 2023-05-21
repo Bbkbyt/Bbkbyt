@@ -1,0 +1,10 @@
+i=''
+while(i!='e' or i!='E'):
+    i=str(input('Enter a character represent your color: '))
+    if(i=='r' or i=='R'):
+        print('Red')
+    elif(i=='g' or i=='G'):
+        print('Green')
+    elif(i=='b' or i=='B'):
+        print('Blue')
+print('End')
