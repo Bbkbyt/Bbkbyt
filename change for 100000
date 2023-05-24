@@ -1,0 +1,8 @@
+i=0
+for x in range(0,21):
+    for y in range(0,51):
+        for z in range(0,101):
+            for w in range(0,201):
+                if(5000*x)+(2000*y)+(1000*z)+(500*w)==100000:
+                    i+=1
+print(i)
