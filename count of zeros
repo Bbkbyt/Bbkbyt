@@ -1,0 +1,19 @@
+x=int(input('Enter a 4 digit number: '))
+a=x//1000
+x-=a*1000
+b=x//100
+x-=b*100
+c=x//10
+x-=c*10
+d=x
+x=0
+print(a,'\t',b,'\t',c,'\t',d,'\n')
+if(a==0):
+    x+=1
+if(b==0):
+    x+=1
+if(c==0):
+    x+=1
+if(d==0):
+    x+=1
+print('count of zeros: ',x)
