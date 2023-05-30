@@ -1,0 +1,8 @@
+numbers=[int(i) for i in input('Enter numbers divided by space: ').split(' ')]
+for j in range(0,len(numbers)):
+    if(numbers[j]>500):
+        break
+    if(numbers[j]>150):
+        continue
+    if(numbers[j]%5==0):
+        print(numbers[j])
