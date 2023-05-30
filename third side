@@ -1,0 +1,6 @@
+import math
+b=int(input('enter first side: '))
+c=int(input('enter second side: '))
+alpha=int(input('enter the angle: '))
+a=b**2+c**2-2*b*c*math.cos(alpha)
+print(a**0.5)
