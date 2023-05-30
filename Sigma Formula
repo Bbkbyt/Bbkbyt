@@ -1,0 +1,25 @@
+x=int(input('Enter x: '))
+n=int(input('Enter n: '))
+def factoriel(n):
+    fact=1
+    i=1
+    while(i<=n):
+        fact*=i
+        i+=1
+    return fact
+
+
+def power(x,n):
+    x=x**n
+    return x   
+
+
+def zigma(x,n):
+    f=0
+    k=1
+    while(k<=n):
+        f+=power(x,k)/factoriel(k)
+        k+=1
+    return f
+
+#print('f(x,n)=',zigma(x,n))
