@@ -1,0 +1,23 @@
+def devision_7(n):
+    d=digits(n)
+    if(n%7==0):
+        if(digits(n)==True):
+            print(n," is divisional to seven with no digit '7'")
+        else:
+            print(n," is divisional to seven, but there is at least one digit '7' in the number")
+    else:
+        print(n,' is not divisional to seven')
+
+        
+def digits(n):
+    flag=True
+    while(n!=0):
+        if(n%10==7):
+            flag=False
+            break
+        n=n//10
+    return flag
+    
+
+n=int(input('Enter a number: '))
+devision_7(n)
