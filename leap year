@@ -1,0 +1,15 @@
+def leap(x):
+    lp=False
+    if(x%100==0):
+        if(x%400==0):
+            lp=True
+    elif(leap%4==0):
+        lp=True
+    return lp
+
+
+x=int(input('Enter a year: '))
+if(leap(x)==True):
+    print(x,' is a leap year')
+else:
+    print(x," is'nt a leap year")
