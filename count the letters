@@ -1,0 +1,2 @@
+lst1=['aa','sad','sdaf','afwe','wergh']
+print(list(map(lambda x: x.lower().count('a'),lst1)))
