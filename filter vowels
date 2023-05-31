@@ -1,0 +1,3 @@
+str1=str(input('Enter your text: '))
+lst=list(filter(lambda x: True if x.lower() in 'aeiou' else False,str1))
+print(lst)
