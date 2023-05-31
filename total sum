@@ -1,0 +1,4 @@
+list1=[99.098,87.898,102.54,-98,-96.87,-59.7655]
+newList=list(map(abs,list1))
+ans_1=sum(newList)
+print(ans_1)
