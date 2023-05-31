@@ -1,0 +1,33 @@
+class Rectangle():
+    def __init__(self,width,length):
+        self.width=width
+        self.length=length
+    def premeter(self):
+        print ('premeter= ',(self.width+self.length)*2)
+    def area(self):
+        print ('area= ',self.width*self.length)
+
+
+class Square(Rectangle):
+    def __init__(self,width):
+        self.width=width
+        self.length=width
+    def premeter(self):
+        return super().premeter()
+    def area(self):
+        return super().area()
+
+
+class Cube(Square):
+    def __init__(self,width):
+        super().__init__(width)
+        self.width=width
+    def area(self):
+        print ('area= ',self.width**2*6)
+    def dimension(self):
+        print('dimension= ',self.width**3)
+    
+
+c1=Cube(3)
+c1.area()
+c1.dimension()
